@@ -1,3 +1,3 @@
 # Image manipulation repo
-Contains: \
+Contains: /
 1. Canny detection algorithm
