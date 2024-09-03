@@ -21,13 +21,11 @@ for letter in sys_img:
     if letter == '.':
         break
     img_title = img_title + letter
-print(img_title)
     
 plt.title(img_title)
 
 # add .png to the end of the title
 img_new = img_title + '.png'
-print(img_new)
 
 # save the image in a png with just the edges
 plt.imsave(img_new, edges, cmap='gray', format='png')
